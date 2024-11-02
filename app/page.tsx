@@ -1,7 +1,5 @@
-"use client"
-import NetWorthCalculator from "@/components/NetWorthCalculator";
+import NetWorthWrapper from "@/components/net-worth/NetWorthWrapper";
 
-
-export default function Page() {
-  return <NetWorthCalculator />;
+export default function Home() {
+  return <NetWorthWrapper />;
 }
